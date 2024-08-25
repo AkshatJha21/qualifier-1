@@ -58,7 +58,7 @@ const Form = () => {
             value={inputData}
             onChange={(e) => setInputData(e.target.value)}
         />
-        <Button onClick={handleSubmit}>
+        <Button onClick={handleSubmit} className='bg-[#005dac]'>
             Submit
         </Button>
         <DropdownMenu>
